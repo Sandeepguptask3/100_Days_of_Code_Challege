@@ -1,0 +1,24 @@
+package com.company;
+import java.util.Scanner;
+public class armstrong_number {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any Number:");
+        int num= sc.nextInt();
+        int last,sum=0,no;
+        no=num;
+        do {
+            last=no%10;
+//System.out.println(last);
+            sum=sum+(last*last*last);
+            no=no/10;
+        }while (no!=0);
+        System.out.println(num);
+        if (sum==num){
+            System.out.println("The Number is ArmStrong");
+        }
+        else {
+            System.out.println("Number is Not Armstrong");
+        }
+    }
+}
