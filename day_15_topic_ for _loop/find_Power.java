@@ -10,7 +10,7 @@ Statement 3 is executed (every time) after the code block has been executed.
   
 Problem :-Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.
 (Do not use java built method)
-sample output :- Enter the base number = 20
+sample input :- Enter the base number = 20
                  Enter the power = 5
 sample output :- 3200000
 Testcase1 :- if user take 0 as base and any number in power.
