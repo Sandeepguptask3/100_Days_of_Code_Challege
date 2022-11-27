@@ -19,8 +19,8 @@ Here, we have placed the code that might generate an exception inside the try bl
 When an exception occurs, it is caught by the catch block. The catch block cannot be used without the try block.
 
 Program: - Exception handling using try...catch.find power of any number
-Sample input:5to the power 2.
-sample output: - 25
+Sample input:2 to the power 5
+sample output: - 32
 
 Explanation: -In this Program, we are trying to find the power of any number.
 
